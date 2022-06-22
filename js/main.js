@@ -37,6 +37,16 @@
                 $('#message').show();
             }else if($('#keyword').val()==='caca2'){
                 $('#message2').show();
+            }else if($('#keyword').val()==='caca3'){
+                $('#message3').show();
+            }else if($('#keyword').val()==='caca5'){
+                $('#message5').show();
+            }else if($('#keyword').val()==='caca6'){
+                $('#message6').show();
+            }else if($('#keyword').val()==='caca7'){
+                $('#message7').show();
+            }else if($('#keyword').val()==='caca8'){
+                $('#message8').show();
             }
             else{
                 $('[id*="message"]').hide();
@@ -55,17 +65,7 @@
     });
 
 
-    // Portfolio isotope and filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
-    $('#portfolio-flters li').on('click', function () {
-        $("#portfolio-flters li").removeClass('active');
-        $(this).addClass('active');
-
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
-    });
+ 
     
     
     // Back to top button
@@ -82,36 +82,6 @@
     });
 
    
-
-    // Gallery carousel
-    $(".gallery-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1500,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-        ],
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:2
-            },
-            768:{
-                items:3
-            },
-            992:{
-                items:4
-            },
-            1200:{
-                items:5
-            }
-        }
-    });
     
 })(jQuery);
 
