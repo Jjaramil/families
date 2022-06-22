@@ -32,7 +32,7 @@
     $(document).ready(function () {
         $('#checker').on('click',function(){
             $('[id*="message"]').hide();
-            if($('#keyword').val()==='caca')
+            if($('#keyword').val().toLowerCase()==='caca')
             {
                 $('#message').show();
             }else if($('#keyword').val()==='caca2'){
