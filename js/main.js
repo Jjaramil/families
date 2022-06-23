@@ -36,10 +36,30 @@
                 $('#message').show();
             }else if($('#keyword').val().toLowerCase()==='equipo2'){
                 $('#message1').show();
-            }else if($('#keyword').val().toLowerCase()==='San Bernardo'){
+            }else if($('#keyword').val().toLowerCase()==='san bernardo'){
                 $('#message2').show();
             }else if($('#keyword').val().toLowerCase()==='3'){
                 $('#message3').show();
+            }else if($('#keyword').val().toLowerCase()==='oración'){
+                $('#message4').show();
+            }else if($('#keyword').val().toLowerCase()==='oracion'){
+                $('#message4').show();
+            }else if($('#keyword').val().toLowerCase()==='misericordia'){
+                $('#message5').show();
+            }else if($('#keyword').val().toLowerCase()==='padre nuestro'){
+                $('#message6').show();
+            }else if($('#keyword').val().toLowerCase()==='7'){
+                $('#message7').show();
+            }else if($('#keyword').val().toLowerCase()==='20'){
+                $('#message8').show();
+            }else if($('#keyword').val().toLowerCase()==='san juan pablo ii'){
+                $('#message9').show();
+            }else if($('#keyword').val().toLowerCase()==='juan pablo ii'){
+                $('#message9').show();
+            }else if($('#keyword').val().toLowerCase()==='luminosos'){
+                $('#message10').show();
+            }else if($('#keyword').val().toLowerCase()==='unida'){
+                $('#message11').show();
             }
             else{
                 $('[id*="message"]').hide();
