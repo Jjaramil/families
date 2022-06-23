@@ -278,6 +278,11 @@ button,
   -webkit-appearance: button;
 }
 
+.init-video{
+  width: 600px;
+  max-width: 100%;
+}
+
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),

@@ -32,14 +32,13 @@
     $(document).ready(function () {
         $('#checker').on('click',function(){
             $('[id*="message"]').hide();
-            if($('#keyword').val().toLowerCase()==='equipo1')
-            {
+            if($('#keyword').val().toLowerCase()==='equipo1'){
                 $('#message').show();
-            }else if($('#keyword').val()==='equipo2'){
+            }else if($('#keyword').val().toLowerCase()==='equipo2'){
                 $('#message1').show();
-            }else if($('#keyword').val()==='San Bernardo'){
+            }else if($('#keyword').val().toLowerCase()==='San Bernardo'){
                 $('#message2').show();
-            }else if($('#keyword').val()==='3'){
+            }else if($('#keyword').val().toLowerCase()==='3'){
                 $('#message3').show();
             }
             else{
