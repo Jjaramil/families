@@ -32,21 +32,15 @@
     $(document).ready(function () {
         $('#checker').on('click',function(){
             $('[id*="message"]').hide();
-            if($('#keyword').val().toLowerCase()==='caca')
+            if($('#keyword').val().toLowerCase()==='equipo1')
             {
                 $('#message').show();
-            }else if($('#keyword').val()==='caca2'){
+            }else if($('#keyword').val()==='equipo2'){
+                $('#message1').show();
+            }else if($('#keyword').val()==='San Bernardo'){
                 $('#message2').show();
-            }else if($('#keyword').val()==='caca3'){
+            }else if($('#keyword').val()==='3'){
                 $('#message3').show();
-            }else if($('#keyword').val()==='caca5'){
-                $('#message5').show();
-            }else if($('#keyword').val()==='caca6'){
-                $('#message6').show();
-            }else if($('#keyword').val()==='caca7'){
-                $('#message7').show();
-            }else if($('#keyword').val()==='caca8'){
-                $('#message8').show();
             }
             else{
                 $('[id*="message"]').hide();
