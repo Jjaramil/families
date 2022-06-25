@@ -31,7 +31,7 @@
     // Modal Video
     $(document).ready(function () {
         $('#checker').on('click',function(){
-            let value = $('#keyword').val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            let value = $('#keyword').val().trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
             $('[id*="message"]').hide();
             if(value==='equipo1'){
                 $('#message').show();
@@ -64,6 +64,7 @@
             else{
                 $('[id*="message"]').hide();
             }
+            $('#keyword').val("");
         });
     });
 
